@@ -1,6 +1,6 @@
 package Entity
 
-class Usuario {
+class User {
 
     String firstName
     String lastName
