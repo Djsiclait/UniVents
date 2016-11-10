@@ -1,10 +1,14 @@
 package Entity
 
-class Event {
+class Event implements Serializable{
 
     String name
     Date startDate
     Date endDate
+
+    Set<User> getAttendees(){
+
+    }
 
     static constraints = {
     }
