@@ -7,5 +7,5 @@ class EventController {
     // CRUDs
     static scaffold = Event
 
-    def index() { }
+    //def index() { }
 }

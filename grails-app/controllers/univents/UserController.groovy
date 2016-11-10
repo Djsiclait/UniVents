@@ -7,5 +7,5 @@ class UserController {
     // CRUDs
     static scaffold = User
 
-    def index() { }
+    //def index() { }
 }
