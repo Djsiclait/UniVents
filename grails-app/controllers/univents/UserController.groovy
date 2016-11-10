@@ -5,7 +5,7 @@ import Entity.User
 class UserController {
 
     // CRUDs
-    static Scaffold = User
+    static scaffold = User
 
     def index() { }
 }

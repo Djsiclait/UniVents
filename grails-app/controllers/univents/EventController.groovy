@@ -5,7 +5,7 @@ import Entity.Event
 class EventController {
 
     // CRUDs
-    static Scaffold = Event
+    static scaffold = Event
 
     def index() { }
 }
