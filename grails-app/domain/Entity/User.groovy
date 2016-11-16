@@ -8,7 +8,8 @@ class User implements Serializable{
     String email
     Date birthDate
 
-    //static hasMany = [events: Event]
+
+    // static hasMany = [events: Event]
 
     //static mappedBy = [events: 'attendees']
 
