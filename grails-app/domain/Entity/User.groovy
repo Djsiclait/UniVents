@@ -9,10 +9,14 @@ class User implements Serializable{
     Date birthDate
 
 
-    // static hasMany = [events: Event]
-
-    //static mappedBy = [events: 'attendees']
+    static belongsTo = [Event]
+    static hasMany = [evento : Event]
 
     static constraints = {
+        cedula(unique: true)
+        firstName(blank: false)
+        lastName(blank: false)
+        email(email: true)
+        birthDate(Date: true)
     }
 }
