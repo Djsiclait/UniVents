@@ -2,7 +2,7 @@ package univents
 
 import Entity.User
 
-class UserController {
+class EntityUserController {
 
     // CRUDs
     static scaffold = User
