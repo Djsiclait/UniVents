@@ -1,5 +1,6 @@
 package Entity
 
+import Practica13.Contact
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

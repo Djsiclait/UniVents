@@ -1,4 +1,4 @@
-package Entity
+package Practica13
 
 class Contact {
 
