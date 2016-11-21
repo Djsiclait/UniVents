@@ -11,6 +11,8 @@ class User implements Serializable {
     Date dateCreated
     Date dateUpdated
 
+    static belongsTo = [Department]
+
     static constraints = {
         username(unique: true)
         firstName(blank: false)
