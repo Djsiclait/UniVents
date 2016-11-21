@@ -10,7 +10,7 @@ class User implements Serializable {
     // Meta Attributes
     Date dateCreated
     Date dateUpdated
-    
+
     static constraints = {
     }
 }
