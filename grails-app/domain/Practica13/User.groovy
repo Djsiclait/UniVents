@@ -12,5 +12,10 @@ class User implements Serializable {
     Date dateUpdated
 
     static constraints = {
+        username(unique: true)
+        firstName(blank: false)
+        lastName(blank: false)
+        dateCreated(Date: true)
+        dateUpdated(Date: true)
     }
 }
