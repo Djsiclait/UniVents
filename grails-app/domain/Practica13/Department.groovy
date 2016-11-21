@@ -9,5 +9,8 @@ class Department implements Serializable {
     Date dateUpdated
 
     static constraints = {
+        name(unique: true)
+        dateCreated(Date: true)
+        dateUpdated(Date: true)
     }
 }
