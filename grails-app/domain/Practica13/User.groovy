@@ -7,6 +7,10 @@ class User implements Serializable {
     String firstName
     String lastName
 
+    // Meta Attributes
+    Date dateCreated
+    Date dateUpdated
+    
     static constraints = {
     }
 }

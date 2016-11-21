@@ -1,6 +1,6 @@
 package Practica13
 
-class Contact {
+class Contact implements Serializable {
 
     // Attributes
     String firstName
@@ -10,6 +10,10 @@ class Contact {
     String address
     String job
     String cellphone
+
+    // Meta Attributes
+    Date dateCreated
+    Date dateUpdated
 
     static constraints = {
     }
