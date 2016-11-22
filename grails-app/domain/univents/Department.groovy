@@ -8,7 +8,7 @@ class Department {
     Date dateCreated
     Date dateUpdated
 
-    //static hasMany = [users: User, contacts: Contact]
+    static hasMany = [users: User, contacts: Contact]
 
     //Set<User> getUsers() { }
 
