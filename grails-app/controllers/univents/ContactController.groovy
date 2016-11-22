@@ -2,6 +2,6 @@ package univents
 
 class ContactController {
 
-    static scaffold = Contact
+    static scaffold = User
 
 }

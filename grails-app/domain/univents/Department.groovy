@@ -5,11 +5,10 @@ class Department {
     String name
 
 
-    static hasMany = [ contacts: Contact]
+    static hasMany = [ contacts: User]
 
-    //Set<User> getUsers() { }
+    Set<User> getUsers() { }
 
-    //Set<Contact> getContacts() { }
 
     static constraints = {
         name(unique: true)
