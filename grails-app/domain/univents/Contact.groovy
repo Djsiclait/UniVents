@@ -15,8 +15,8 @@ class Contact {
     Date dateCreated
     Date dateUpdated
 
-    //static belongsTo = [Department]
-    //static hasMany = [departments: Department]
+    static belongsTo = [Department]
+    static hasMany = [departments: Department]
 
 
 

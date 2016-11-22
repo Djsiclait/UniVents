@@ -11,7 +11,7 @@ class User {
     Date dateCreated
     Date dateUpdated
 
-    //static belongsTo = [Department]
+    static belongsTo = [Department]
 
     static constraints = {
         username(unique: true)
