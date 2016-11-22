@@ -7,5 +7,5 @@ class ContactController {
     // CRUD
     static scaffold = Contact
 
-    def index() { }
+    //def index() { }
 }

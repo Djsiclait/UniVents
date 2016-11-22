@@ -7,5 +7,5 @@ class DepartmentController {
     // CRUD
     static scaffold = Department
 
-    def index() { }
+    //def index() { }
 }
