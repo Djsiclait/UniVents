@@ -11,10 +11,6 @@ class Contact {
     String job
     String cellphone
 
-    // Meta Attributes
-    Date dateCreated
-    Date dateUpdated
-
     static belongsTo = [Department]
     static hasMany = [departments: Department]
 
@@ -28,7 +24,5 @@ class Contact {
         address(blank: false)
         job(blank: true)
         cellphone(blank: true)
-        dateCreated(Date: true)
-        dateUpdated(Date: true)
     }
 }

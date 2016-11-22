@@ -7,9 +7,6 @@ class User {
     String firstName
     String lastName
 
-    // Meta Attributes
-    Date dateCreated
-    Date dateUpdated
 
     static belongsTo = [Department]
 
@@ -17,7 +14,6 @@ class User {
         username(unique: true)
         firstName(blank: false)
         lastName(blank: false)
-        dateCreated(Date: true)
-        dateUpdated(Date: true)
+
     }
 }
