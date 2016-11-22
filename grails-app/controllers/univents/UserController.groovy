@@ -1,6 +1,7 @@
 package univents
 
-import Practica13.User
+import Entity.User
+
 
 class UserController {
 
