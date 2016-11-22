@@ -1,11 +1,11 @@
 package univents
 
-import Entity.User
+import Practica13.User
 
-class EntityUserController {
+class UserController {
 
-    // CRUDs
+    // CRUD
     static scaffold = User
 
-    //def index() { }
+    def index() { }
 }
