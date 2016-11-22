@@ -5,7 +5,7 @@ class Department {
     String name
 
 
-    static hasMany = [users: User, contacts: Contact]
+    static hasMany = [ contacts: Contact]
 
     //Set<User> getUsers() { }
 
@@ -13,7 +13,6 @@ class Department {
 
     static constraints = {
         name(unique: true)
-        users(nullable: false)
         contacts(nullable: false)
     }
 }
