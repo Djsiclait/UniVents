@@ -26,8 +26,9 @@ class Contact {
         firstName(blank: false)
         lastName(blank: false)
         address(blank: false)
+        job(blank: true)
+        cellphone(blank: true)
         dateCreated(Date: true)
         dateUpdated(Date: true)
-
     }
 }
