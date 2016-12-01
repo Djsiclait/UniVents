@@ -9,7 +9,6 @@ class UrlMappings {
             }
         }
 
-        "/doshit"(view: "/charts/index.gsp")
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
